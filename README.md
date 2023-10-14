@@ -1,1 +1,1 @@
-"# Android-x86_Plus" 
+An more advanced version of android-x86
