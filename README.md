@@ -1,1 +1,1 @@
-this is the android-x86+ cupcake source
+this is the android-x86+ donut source
