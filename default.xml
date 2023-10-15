@@ -4,7 +4,7 @@
            fetch="https://git.codelinaro.org/clo/la/"
            review="review.source.android.com" />
   <remote  name="x86"
-           fetch="https://git.code.sf.net/p/android-x86/" />
+           fetch="https://scm.osdn.net/gitroot/android-x86/" />
   <default revision="android-x86-v0.9"
            remote="korg" />
 
