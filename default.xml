@@ -11,7 +11,7 @@
            sync-j="4" />
 
   <!-- from x86 port repositories -->
-  <project path="build" name="platform_build" remote="x86" >
+  <project path="build" name="build" remote="x86" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
