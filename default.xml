@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote  name="aosp"
-           fetch="https://android.googlesource.com/" />
+           fetch="https://git.codelinaro.org/clo/la/" />
   <remote  name="x86"
            revision="donut-x86"
            fetch="https://git.code.sf.net/p/android-x86/" />
