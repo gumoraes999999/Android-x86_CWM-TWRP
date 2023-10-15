@@ -47,7 +47,7 @@
   <!-- from original Android repositories -->
   <project name="platform/bootable/bootloader/legacy" path="bootable/bootloader/legacy" revision="86dcb678f30c588a31321f27af873d7ba2dacfb9"/>
   <project name="platform/bootable/diskinstaller" path="bootable/diskinstaller" revision="8c3bbe179741dd58175c482e221849ea91c75543"/>
-  <project name="platform/bootable/recovery" path="bootable/recovery" revision="65a56909a336c99ad96eac30f4dc697f36598377"/>
+mkdir recovery name
 
   <project name="platform/frameworks/opt/com.google.android" path="frameworks/opt/com.google.android" revision="012c15220108e49446d20449fd0986ecec920882"/>
   <project name="platform/frameworks/opt/com.google.android.googlelogin" path="frameworks/opt/com.google.android.googlelogin" revision="96149306ae731d08ffb4b97d459e2759db857e95"/>
