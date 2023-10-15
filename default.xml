@@ -36,7 +36,7 @@
   <project path="packages/apps/Music" name="packages_apps_Music" remote="x86" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="x86" />
   <project path="packages/inputmethods/PinyinIME" name="packages_inputmethods_PinyinIME" remote="x86" />
-  <project path="external/bluez" name="external_bluez" remote="x86" />
+  <project path="external/bluez" name="external_bluetooth_bluez" remote="x86" />
   <project path="external/dhcpcd" name="external_dhcpcd" remote="x86" />
   <project path="external/drm" name="external_drm" remote="x86" />
   <project path="external/mesa" name="external_mesa" remote="x86" />
