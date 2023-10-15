@@ -4,47 +4,46 @@
            fetch="https://android.googlesource.com/" />
   <remote  name="x86"
            fetch="." />
-  <default revision="refs/tags/android-x86-1.6"
+  <default revision="donut-release"
            remote="aosp"
            sync-c="true"
            sync-j="4" />
 
   <!-- from x86 port repositories -->
-  <project path="build" name="platform/build" remote="x86" >
+  <project path="build" name="platform_build" remote="x86" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="kernel" name="kernel/common" remote="x86" />
+  <project path="kernel" name="kernel_common" remote="x86" />
 
-  <project path="bionic" name="platform/bionic" remote="x86" />
-  <project path="dalvik" name="platform/dalvik" remote="x86" />
-  <project path="development" name="platform/development" remote="x86" />
-  <project path="frameworks/base" name="platform/frameworks/base" remote="x86" />
-  <project path="frameworks/policies/base" name="platform/frameworks/policies/base" remote="x86" />
-  <project path="hardware/alsa_sound" name="platform/hardware/alsa_sound" remote="x86" />
-  <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" remote="x86" />
-  <project path="prebuilt" name="platform/prebuilt" remote="x86" />
-  <project path="system/bluetooth" name="platform/system/bluetooth" remote="x86" />
-  <project path="system/core" name="platform/system/core" remote="x86" />
-  <project path="system/extras" name="platform/system/extras" remote="x86" />
-  <project path="packages/providers/DownloadProvider" name="platform/packages/providers/DownloadProvider" remote="x86" />
-  <project path="packages/apps/AlarmClock" name="platform/packages/apps/AlarmClock" remote="x86" />
-  <project path="packages/apps/ConnectBot" name="platform/packages/apps/ConnectBot" remote="x86" />
-  <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" remote="x86" />
-  <project path="packages/apps/FileManager" name="platform/packages/apps/FileManager" remote="x86" />
-  <project path="packages/apps/Music" name="platform/packages/apps/Music" remote="x86" />
-  <project path="packages/apps/Settings" name="platform/packages/apps/Settings" remote="x86" />
-  <project path="packages/inputmethods/PinyinIME" name="platform/packages/inputmethods/PinyinIME" remote="x86" />
-  <project path="external/bluez" name="platform/external/bluez" remote="x86" />
-  <project path="external/dhcpcd" name="platform/external/dhcpcd" remote="x86" />
-  <project path="external/drm" name="platform/external/drm" remote="x86" />
-  <project path="external/mesa" name="platform/external/mesa" remote="x86" />
-  <project path="external/wpa_supplicant" name="platform/external/wpa_supplicant" remote="x86" />
+  <project path="bionic" name="bionic" remote="x86" />
+  <project path="dalvik" name="dalvik" remote="x86" />
+  <project path="development" name="development" remote="x86" />
+  <project path="frameworks/base" name="frameworks_base" remote="x86" />
+  <project path="frameworks/policies/base" name="frameworks_policies_base" remote="x86" />
+  <project path="hardware/alsa_sound" name="hardware_alsa_sound" remote="x86" />
+  <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="x86" />
+  <project path="prebuilt" name="prebuilt" remote="x86" />
+  <project path="system/bluetooth" name="system_bluetooth" remote="x86" />
+  <project path="system/core" name="system_core" remote="x86" />
+  <project path="system/extras" name="system_extras" remote="x86" />
+  <project path="packages/providers/DownloadProvider" name="package_providers_DownloadProvider" remote="x86" />
+  <project path="packages/apps/AlarmClock" name="packages_apps_AlarmClock" remote="x86" />
+  <project path="packages/apps/ConnectBot" name="packages_apps_ConnectBot" remote="x86" />
+  <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="x86" />
+  <project path="packages/apps/FileManager" name="packages_apps_FileManager" remote="x86" />
+  <project path="packages/apps/Music" name="packages_apps_Music" remote="x86" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="x86" />
+  <project path="packages/inputmethods/PinyinIME" name="packages_inputmethods_PinyinIME" remote="x86" />
+  <project path="external/bluez" name="external_bluez" remote="x86" />
+  <project path="external/dhcpcd" name="external_dhcpcd" remote="x86" />
+  <project path="external/drm" name="external_drm" remote="x86" />
+  <project path="external/mesa" name="external_mesa" remote="x86" />
+  <project path="external/wpa_supplicant" name="external_wpa_supplicant" remote="x86" />
 
-  <project path="bootable/newinstaller" name="platform/bootable/newinstaller" remote="x86" />
-  <project path="vendor/asus/eeepc" name="platform/vendor/asus/eeepc" remote="x86" />
+  <project path="bootable/newinstaller" name="bootable_newinstaller" remote="x86" />
+  <project path="vendor/asus/eeepc" name="platform_vendor_asus_eeepc" remote="x86" />
 
-  <!-- from original Android repositories -->
   <project name="platform/bootable/bootloader/legacy" path="bootable/bootloader/legacy" revision="86dcb678f30c588a31321f27af873d7ba2dacfb9"/>
   <project name="platform/bootable/diskinstaller" path="bootable/diskinstaller" revision="8c3bbe179741dd58175c482e221849ea91c75543"/>
   <project name="platform/bootable/recovery" path="bootable/recovery" revision="65a56909a336c99ad96eac30f4dc697f36598377"/>
