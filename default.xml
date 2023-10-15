@@ -5,7 +5,7 @@
   <remote  name="x86"
            revision="donut-x86"
            fetch="https://git.code.sf.net/p/android-x86/" />
-  <default revision="donut-release"
+  <default revision="caf_migration/aosp/donut"
            remote="aosp"
            sync-c="true"
            sync-j="4" />
