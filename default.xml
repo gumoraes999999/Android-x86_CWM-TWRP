@@ -3,7 +3,8 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com/" />
   <remote  name="x86"
-           fetch="." />
+           revision="donut-x86"
+           fetch="https://git.code.sf.net/p/android-x86/" />
   <default revision="donut-release"
            remote="aosp"
            sync-c="true"
