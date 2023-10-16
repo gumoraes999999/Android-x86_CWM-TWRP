@@ -1,1 +1,1 @@
-this is the android-x86+ donut source
+this is the android-x86 with cwm/twrp donut source
